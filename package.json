@@ -31,7 +31,6 @@
     "uuid": "db65ee0f-07f9-4be6-babf-1c85131d5da0"
   },
   "engines": {
-    // "node": ">=10.16.0 <=14.x.x",
     "node": "14.x",
     "npm": "^6.0.0"
   },
