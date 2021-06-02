@@ -4,6 +4,14 @@ odule.exports = ({ env }) => ({
     default: {
       connector: 'bookshelf',
       settings: {
+<<<<<<< HEAD
+        client: 'sqlite',
+        filename: env('DATABASE_FILENAME', '.tmp/data.db'),
+      },
+      options: {
+        useNullAsDefault: true,
+      },
+=======
         client: 'postgres',
         host: env('DATABASE_HOST', 'ec2-54-243-92-68.compute-1.amazonaws.com'),
         port: env.int('DATABASE_PORT', 5432),
@@ -16,6 +24,7 @@ odule.exports = ({ env }) => ({
         },
       },
       options: {},
+>>>>>>> 4bf7260f51d72efc6e8fe3e3e64b00b96ae39f32
     },
   },
 });
